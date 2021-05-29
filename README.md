@@ -7,3 +7,5 @@ Firstly, I had to do some data cleaning and selection and then I used some metho
 After the "traditional" machine learning methods, I used neural networks (implemented with keras) to classify the speeches. The results were worse than those of the previous methods, but still acceptable.
 
 Finally, I tried to write a function that takes as input a party, a starting word and a desired text length and generates a (hypothetical) speech of the given party, starting with the given word and with the given length (in words, excluding the starting word). The function manages to use the desired vocabulary according to the party given and achieves a little structure in the speeches produced, but fails to do so in the level humans speak. In other words it (kind of) produces speeches that could have been given by a drunk politian of the respective party.
+
+The data used can be found here: https://zenodo.org/record/2587904
